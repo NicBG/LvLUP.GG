@@ -1,0 +1,60 @@
+.friends-list {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #020913; /* dark blue */
+    box-shadow: 0 6px 20px rgb(4, 224, 231);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    color: #fff;
+    width: 400px;
+    font-family: OCR A Std, monospace;
+  }
+  
+  .friends-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .friends-list input[type='text'] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .friend-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.unfriend-button {
+    padding: 5px 10px;
+    background-color: #ff4d4f; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.unfriend-button:hover {
+    background-color: #ff7875; 
+}
+  
+  .friend-item:last-child {
+    border-bottom: none;
+  }
+  
+  .friend-item:hover {
+    cursor: pointer;
+  }

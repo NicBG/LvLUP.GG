@@ -1,0 +1,12 @@
+import React from 'react'
+import '../App.css'
+import './ExplorePage.css'
+
+
+function ExplorePage() {
+  return ( 
+    <video data-testid="video-element" src="/videos/video-6.mp4" autoPlay loop muted />      
+  )
+}
+
+export default ExplorePage
